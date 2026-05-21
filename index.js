@@ -38,6 +38,7 @@ app.get('/', (req, res) => {
   res.send('SportNest server is running')
 })
 
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`)
 })
