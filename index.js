@@ -34,6 +34,7 @@ mongoose.connect(process.env.MONGODB_URI, {
   .catch((err) => {
     console.log('MongoDB connection error:', err)
   })
+  
 
 app.get('/', (req, res) => {
   res.send('SportNest server is running')
