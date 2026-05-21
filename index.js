@@ -11,6 +11,7 @@ const bookingRoutes = require('./routes/bookings')
 const app = express()
 const port = process.env.PORT || 5000
 
+
 app.use(cors({
   origin: true,
   credentials: true
