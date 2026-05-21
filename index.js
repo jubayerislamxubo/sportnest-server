@@ -19,6 +19,7 @@ app.use(cors({
 app.use(express.json())
 app.use(cookieParser())
 
+
 app.use('/auth', authRoutes)
 app.use('/facilities', facilityRoutes)
 app.use('/bookings', bookingRoutes)
